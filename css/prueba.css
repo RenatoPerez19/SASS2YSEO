@@ -1,0 +1,163 @@
+.bodyprincipal {
+  background-image: url(../img/lacoste.jpg);
+  min-width: 100vh; }
+
+header .logo {
+  font-size: large;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, white, #47597a, rgba(70, 139, 185, 0.863), rgba(24, 88, 148, 0.801));
+  padding: 40px;
+  margin: 0%; }
+
+header a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-family: verdana; }
+
+.h1index {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.mainindex {
+  font-size: 40px;
+  padding: 25px;
+  margin: 60px; }
+  .mainindex p {
+    font-family: verdana;
+    color: black; }
+  .mainindex .boton {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 20px; }
+
+.parrafo2index {
+  margin-top: 40px;
+  padding: 15px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.308), rgba(71, 89, 122, 0.336), rgba(70, 139, 185, 0.342), rgba(24, 88, 148, 0.315));
+  text-align: center;
+  font-size: 30px;
+  font-family: verdana; }
+
+.sectioninicial {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .sectioninicial div {
+    text-align: center;
+    box-shadow: 2px 4px 10px 0 black;
+    border-style: solid;
+    border-radius: 5px;
+    width: 19%;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; }
+  .sectioninicial p {
+    color: black;
+    font-size: 25px;
+    font-family: verdana; }
+
+footer {
+  background-color: #f3d4ab;
+  color: black;
+  display: flex;
+  justify-content: space-around; }
+  footer div {
+    color: black;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 15%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column; }
+  footer a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; }
+
+body {
+  background-image: linear-gradient(to right, white, #7e9dd6, rgba(55, 161, 231, 0.863), rgba(45, 145, 240, 0.801)); }
+
+header .logo {
+  font-size: large;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, white, #47597a, rgba(70, 139, 185, 0.863), rgba(24, 88, 148, 0.801));
+  padding: 40px;
+  margin: 0%; }
+
+header a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-family: verdana; }
+
+.main_newin p {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.indumentaria {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .indumentaria div {
+    text-align: center;
+    color: #064406;
+    box-shadow: 2px 4px 10px 0 black;
+    border-color: #1f1f1f;
+    border-style: solid;
+    width: 19%;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; }
+  .indumentaria strong {
+    color: black;
+    text-align: center; }
+
+footer {
+  background-color: #f3d4ab;
+  color: black;
+  display: flex;
+  justify-content: space-around; }
+  footer div {
+    color: black;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 15%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column; }
+  footer a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; }
+
+* {
+  margin: 0;
+  padding: 0; }

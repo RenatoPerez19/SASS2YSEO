@@ -1,0 +1,100 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+.bodyprincipal{
+    background-image: url(../img/lacoste.jpg);
+    min-width: 100vh;
+}
+
+
+header{
+    .logo{
+        @include logo;
+
+    }
+        nav{
+            @include principalnav;
+        }
+        a{
+            font-size: $letra;
+            color: $color-letra;
+            text-decoration: none;
+            font-family: $tipo-de-letra;
+        } 
+        
+    }
+
+.h1index{
+    @include h1index;
+}
+
+.mainindex{
+    font-size: $anuncio;
+    padding: 25px;
+    margin: 60px;
+    p{
+        font-family: $tipo-de-letra;
+        color: $color-letra;
+    }
+    .boton{
+        background-color:black;
+        color: white;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+}
+
+.parrafo2index{
+    margin-top: 40px;
+    padding: 15px;
+    background-image: linear-gradient(to right , rgba(255, 255, 255, 0.308),rgba(71, 89, 122, 0.336)  ,rgba(70, 139, 185, 0.342) , rgba(24, 88, 148, 0.315));
+    text-align:$centrar-texto;
+    font-size: 30px ;
+    font-family: $tipo-de-letra;
+}
+
+.sectioninicial{
+    @include flexibilizar-centrar;
+    div{
+        text-align: center;
+        box-shadow: 2px 4px 10px 0 black;
+        border-style: solid;
+        border-radius: 5px;
+        width: 19%;
+        background-color: #fff;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction:column;
+    }
+    p{
+        color:$color-letra;
+        font-size: 25px;
+        font-family: $tipo-de-letra;
+    }
+}
+
+footer{
+    @include footer;
+    div{
+        color: $color-letra;
+        font-size: larger;
+        font-family:Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        width: 15%;
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        flex-direction:column;
+    }
+    a{
+        text-decoration: none;
+        font-family:Arial, Helvetica, sans-serif;
+        color:$color-letra
+    }
+
+}
