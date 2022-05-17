@@ -1,3 +1,67 @@
+.bodycontacto {
+  background-image: url(../img/bodycontacto.jpg);
+  text-align: center; }
+
+header .logo {
+  font-size: large;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, white, #47597a, rgba(70, 139, 185, 0.863), rgba(24, 88, 148, 0.801));
+  padding: 40px;
+  margin: 0%; }
+
+header a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-family: verdana; }
+
+.formulario {
+  border-radius: 30px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  margin: 10%;
+  padding: 10%;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; }
+
+.div_condiciones {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.legend {
+  font-size: 30px; }
+
+footer {
+  background-color: #f3d4ab;
+  color: black;
+  display: flex;
+  justify-content: space-around; }
+  footer div {
+    color: black;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 15%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column; }
+  footer a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; }
+
 .bodyprincipal {
   background-image: url(../img/lacoste.jpg);
   min-width: 100vh; }
@@ -90,6 +154,52 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     color: black; }
 
+header .logo {
+  font-size: large;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, white, #47597a, rgba(70, 139, 185, 0.863), rgba(24, 88, 148, 0.801));
+  padding: 40px;
+  margin: 0%; }
+
+header a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-family: verdana; }
+
+.div_h1 h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: verdana;
+  padding: 1cm; }
+
+.marcas_main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #c4fbff; }
+
+.marcas_main div {
+  text-align: center;
+  color: #020202;
+  box-shadow: 2px 4px 10px 0 black;
+  border-color: #1f1f1f;
+  border-radius: 23px;
+  border-style: solid;
+  width: 19%;
+  background-color: #fff;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column; }
+
 body {
   background-image: linear-gradient(to right, white, #7e9dd6, rgba(55, 161, 231, 0.863), rgba(45, 145, 240, 0.801)); }
 
@@ -157,6 +267,68 @@ footer {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: black; }
+
+.bodynosotros {
+  background-color: #588c7e; }
+
+header .logo {
+  font-size: large;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, white, #47597a, rgba(70, 139, 185, 0.863), rgba(24, 88, 148, 0.801));
+  padding: 40px;
+  margin: 0%; }
+
+header a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-family: verdana; }
+
+.titulo_nosotros {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: large;
+  color: rgba(16, 17, 17, 0.986);
+  margin: 15px;
+  padding: 20px;
+  text-decoration: overline;
+  margin: 20px; }
+
+.titulo_dosnosotros {
+  text-align: center;
+  font-family: verdana;
+  font-size: 20px;
+  padding: 13px;
+  float: left; }
+
+.parrafonosotros {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: verdana; }
+
+.usuarios {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px; }
+  .usuarios div {
+    box-shadow: 2px 4px 10px 0 black;
+    border-color: #5f9799;
+    border-style: solid;
+    width: 19%;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; }
 
 * {
   margin: 0;

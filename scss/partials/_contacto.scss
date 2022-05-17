@@ -2,3 +2,69 @@
 @import "../sass2/extend";
 @import "../sass2/mixins";
 
+.bodycontacto{
+    background-image: url(../img/bodycontacto.jpg);
+    text-align: center;
+}
+
+
+header{
+    .logo{
+        @include logo;
+
+    }
+        nav{
+            @include principalnav;
+        }
+        a{
+            font-size: $letra;
+            color: $color-letra;
+            text-decoration: none;
+            font-family: $tipo-de-letra;
+        } 
+        
+    }
+
+    .formulario{
+        border-radius: 30px;
+        border-style: solid;
+        border-color: black;
+        text-align: $centrar-texto;
+        margin: 10%;
+        padding: 10%;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+
+    .div_condiciones{
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        margin: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+    
+    .legend{
+        font-size: 30px;
+    }
+
+    footer{
+        @include footer;
+        div{
+            color: $color-letra;
+            font-size: larger;
+            font-family:Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            width: 15%;
+            margin: 5px;
+            padding: 5px;
+            display: flex;
+            flex-direction:column;
+        }
+        a{
+            text-decoration: none;
+            font-family:Arial, Helvetica, sans-serif;
+            color:$color-letra;
+        }
+    }
