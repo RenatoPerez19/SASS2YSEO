@@ -6,3 +6,4 @@ Palabras claves: Utilice la etiqueta meta name keywords y use las palabras "Drun
 
 17/05
 hoy termine la pagina de contacto, nosotros y marcas, utilice flexbox , mixins etc
+No me deja usar el 000webhost , ya que me pide que me suscriba si o si (premium)
