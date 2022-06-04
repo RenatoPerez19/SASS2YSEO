@@ -71,3 +71,13 @@ footer{
         color:$color-letra;
     }
 }
+
+.marcasnew{
+    background-color: black;
+}
+
+div .marca1{
+    .p{
+        @include boton
+    }
+}

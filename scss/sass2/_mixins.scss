@@ -43,10 +43,16 @@
 }
 
 @mixin footer {
-    background-color: rgb(243, 212, 171);
-    color: $color-letra;
+    background-color: rgb(15, 15, 15);
+    color: white;
     display: flex;
     justify-content: space-around;
     
+}
+
+@mixin boton{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
 

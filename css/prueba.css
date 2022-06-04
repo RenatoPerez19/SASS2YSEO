@@ -1,6 +1,5 @@
 .bodycontacto {
-  background-image: url(../img/bodycontacto.jpg);
-  text-align: center; }
+  background-image: linear-gradient(to right, white, #7e9dd6, rgba(55, 161, 231, 0.863), rgba(45, 145, 240, 0.801)); }
 
 header .logo {
   font-size: large;
@@ -62,8 +61,8 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     color: black; }
 
-.bodyprincipal {
-  background-image: url(../img/lacoste.jpg);
+.fondoprincipal {
+  background-image: linear-gradient(to right, white, #7e9dd6, rgba(55, 161, 231, 0.863), rgba(45, 145, 240, 0.801));
   min-width: 100vh; }
 
 header .logo {
@@ -92,6 +91,7 @@ header a {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
 .mainindex {
+  background-image: linear-gradient(to right, white, #7e9dd6, rgba(55, 161, 231, 0.863), rgba(45, 145, 240, 0.801));
   font-size: 40px;
   padding: 25px;
   margin: 60px; }
@@ -109,30 +109,10 @@ header a {
 .parrafo2index {
   margin-top: 40px;
   padding: 15px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.308), rgba(71, 89, 122, 0.336), rgba(70, 139, 185, 0.342), rgba(24, 88, 148, 0.315));
+  background-image: linear-gradient(to right, white, #7e9dd6, rgba(55, 161, 231, 0.863), rgba(45, 145, 240, 0.801));
   text-align: center;
   font-size: 30px;
   font-family: verdana; }
-
-.sectioninicial {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; }
-  .sectioninicial div {
-    text-align: center;
-    box-shadow: 2px 4px 10px 0 black;
-    border-style: solid;
-    border-radius: 5px;
-    width: 19%;
-    background-color: #fff;
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column; }
-  .sectioninicial p {
-    color: black;
-    font-size: 25px;
-    font-family: verdana; }
 
 footer {
   background-color: #f3d4ab;
@@ -267,6 +247,14 @@ footer {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: black; }
+
+.marcasnew {
+  background-color: black; }
+
+div .marca1 .p {
+  background-color: black;
+  color: white;
+  border-radius: 10px; }
 
 .bodynosotros {
   background-color: #588c7e; }

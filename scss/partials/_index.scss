@@ -3,9 +3,12 @@
 @import "../sass2/mixins";
 
 
-.bodyprincipal{
-    background-image: url(../img/lacoste.jpg);
-    min-width: 100vh;
+.fondoprincipal{
+    background-image: linear-gradient(to right , white,rgb(126, 157, 214)  ,rgba(55, 161, 231, 0.863) , rgba(45, 145, 240, 0.801));
+    display: flex;
+    flex-direction: column;
+    min-height: 100%
+
 }
 
 
@@ -51,32 +54,12 @@ header{
 .parrafo2index{
     margin-top: 40px;
     padding: 15px;
-    background-image: linear-gradient(to right , rgba(255, 255, 255, 0.308),rgba(71, 89, 122, 0.336)  ,rgba(70, 139, 185, 0.342) , rgba(24, 88, 148, 0.315));
+    background-image:  linear-gradient(to right , white,rgb(126, 157, 214)  ,rgba(55, 161, 231, 0.863) , rgba(45, 145, 240, 0.801));
     text-align:$centrar-texto;
     font-size: 30px ;
     font-family: $tipo-de-letra;
 }
 
-.sectioninicial{
-    @include flexibilizar-centrar;
-    div{
-        text-align: center;
-        box-shadow: 2px 4px 10px 0 black;
-        border-style: solid;
-        border-radius: 5px;
-        width: 19%;
-        background-color: #fff;
-        margin: 10px;
-        padding: 10px;
-        display: flex;
-        flex-direction:column;
-    }
-    p{
-        color:$color-letra;
-        font-size: 25px;
-        font-family: $tipo-de-letra;
-    }
-}
 
 footer{
     @include footer;

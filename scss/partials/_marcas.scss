@@ -34,7 +34,7 @@ header{
         flex-wrap: wrap;
         justify-content: space-around;
         padding:10px;
-        background-color: rgb(196, 251, 255);
+        background-image:  linear-gradient(to right , white,rgb(126, 157, 214)  ,rgba(55, 161, 231, 0.863) , rgba(45, 145, 240, 0.801));
     }
     div{
         text-align: $centrar-texto;
@@ -49,6 +49,26 @@ header{
         padding: 5px;
         display: flex;
         flex-direction:column;
+    }
+}
+
+footer{
+    @include footer;
+    div{
+        color: $color-letra;
+        font-size: larger;
+        font-family:Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        width: 15%;
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        flex-direction:column;
+    }
+    a{
+        text-decoration: none;
+        font-family:Arial, Helvetica, sans-serif;
+        color:$color-letra;
     }
 }
 
