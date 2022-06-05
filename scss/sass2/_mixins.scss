@@ -29,6 +29,7 @@
     background-image: linear-gradient(to right , white,rgb(71, 89, 122)  ,rgba(70, 139, 185, 0.863) , rgba(24, 88, 148, 0.801));
     padding: 40px;
     margin:0%;
+    gap: 10px;
     
 }
 
@@ -43,8 +44,8 @@
 }
 
 @mixin footer {
-    background-color: rgb(15, 15, 15);
-    color: white;
+    background-color: rgb(27, 80, 129);
+    color: grey;
     display: flex;
     justify-content: space-around;
     

@@ -12,7 +12,8 @@ header nav {
   flex-wrap: wrap;
   background-image: linear-gradient(to right, white, #47597a, rgba(70, 139, 185, 0.863), rgba(24, 88, 148, 0.801));
   padding: 40px;
-  margin: 0%; }
+  margin: 0%;
+  gap: 10px; }
 
 header a {
   font-size: 20px;
@@ -21,49 +22,19 @@ header a {
   font-family: verdana; }
 
 .formulario {
-  border-radius: 30px;
-  border-style: solid;
-  border-color: black;
   text-align: center;
-  margin: 10%;
-  padding: 10%;
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px; }
-
-.div_condiciones {
-  font-size: 20px;
-  text-align: center;
-  color: black;
-  margin: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
-
-.legend {
-  font-size: 30px; }
-
-footer {
-  background-color: #f3d4ab;
-  color: black;
-  display: flex;
-  justify-content: space-around; }
-  footer div {
-    color: black;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    width: 15%;
-    margin: 5px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column; }
-  footer a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black; }
+  max-width: 25em;
+  padding: 30px;
+  margin: 45px;
+  font-weight: bold;
+  border-radius: 0.5em;
+  box-shadow: inset 1px 1px 22px 4px black; }
 
 .fondoprincipal {
   background-image: linear-gradient(to right, white, #7e9dd6, rgba(55, 161, 231, 0.863), rgba(45, 145, 240, 0.801));
-  min-width: 100vh; }
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
 
 header .logo {
   font-size: large;
@@ -76,7 +47,8 @@ header nav {
   flex-wrap: wrap;
   background-image: linear-gradient(to right, white, #47597a, rgba(70, 139, 185, 0.863), rgba(24, 88, 148, 0.801));
   padding: 40px;
-  margin: 0%; }
+  margin: 0%;
+  gap: 10px; }
 
 header a {
   font-size: 20px;
@@ -91,7 +63,6 @@ header a {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
 .mainindex {
-  background-image: linear-gradient(to right, white, #7e9dd6, rgba(55, 161, 231, 0.863), rgba(45, 145, 240, 0.801));
   font-size: 40px;
   padding: 25px;
   margin: 60px; }
@@ -106,21 +77,21 @@ header a {
     border-radius: 20px;
     font-size: 20px; }
 
-.parrafo2index {
+.parrafo2 {
+  background-color: black;
+  color: white;
   margin-top: 40px;
   padding: 15px;
-  background-image: linear-gradient(to right, white, #7e9dd6, rgba(55, 161, 231, 0.863), rgba(45, 145, 240, 0.801));
   text-align: center;
   font-size: 30px;
   font-family: verdana; }
 
 footer {
-  background-color: #f3d4ab;
-  color: black;
+  background-color: #1b5081;
+  color: grey;
   display: flex;
   justify-content: space-around; }
   footer div {
-    color: black;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -132,7 +103,7 @@ footer {
   footer a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color: black; }
+    color: grey; }
 
 header .logo {
   font-size: large;
@@ -145,7 +116,8 @@ header nav {
   flex-wrap: wrap;
   background-image: linear-gradient(to right, white, #47597a, rgba(70, 139, 185, 0.863), rgba(24, 88, 148, 0.801));
   padding: 40px;
-  margin: 0%; }
+  margin: 0%;
+  gap: 10px; }
 
 header a {
   font-size: 20px;
@@ -164,7 +136,7 @@ header a {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
-  background-color: #c4fbff; }
+  background-image: linear-gradient(to right, white, #7e9dd6, rgba(55, 161, 231, 0.863), rgba(45, 145, 240, 0.801)); }
 
 .marcas_main div {
   text-align: center;
@@ -180,6 +152,34 @@ header a {
   display: flex;
   flex-direction: column; }
 
+footer {
+  background-color: #1b5081;
+  color: grey;
+  display: flex;
+  justify-content: space-around; }
+  footer div {
+    color: black;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 15%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column; }
+  footer a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; }
+
+.infomarcas {
+  color: black;
+  font-size: verdana;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px; }
+
 body {
   background-image: linear-gradient(to right, white, #7e9dd6, rgba(55, 161, 231, 0.863), rgba(45, 145, 240, 0.801)); }
 
@@ -194,7 +194,8 @@ header nav {
   flex-wrap: wrap;
   background-image: linear-gradient(to right, white, #47597a, rgba(70, 139, 185, 0.863), rgba(24, 88, 148, 0.801));
   padding: 40px;
-  margin: 0%; }
+  margin: 0%;
+  gap: 10px; }
 
 header a {
   font-size: 20px;
@@ -229,8 +230,8 @@ header a {
     text-align: center; }
 
 footer {
-  background-color: #f3d4ab;
-  color: black;
+  background-color: #1b5081;
+  color: grey;
   display: flex;
   justify-content: space-around; }
   footer div {
@@ -251,10 +252,20 @@ footer {
 .marcasnew {
   background-color: black; }
 
-div .marca1 .p {
-  background-color: black;
-  color: white;
-  border-radius: 10px; }
+.marca1 {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 5%;
+  margin: auto; }
+  .marca1 .botonnew {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px; }
 
 .bodynosotros {
   background-color: #588c7e; }
@@ -270,7 +281,8 @@ header nav {
   flex-wrap: wrap;
   background-image: linear-gradient(to right, white, #47597a, rgba(70, 139, 185, 0.863), rgba(24, 88, 148, 0.801));
   padding: 40px;
-  margin: 0%; }
+  margin: 0%;
+  gap: 10px; }
 
 header a {
   font-size: 20px;
@@ -317,6 +329,9 @@ header a {
     padding: 10px;
     display: flex;
     flex-direction: column; }
+
+html {
+  height: 100%; }
 
 * {
   margin: 0;

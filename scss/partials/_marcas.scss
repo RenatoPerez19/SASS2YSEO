@@ -5,7 +5,6 @@
 header{
     .logo{
         @include logo;
-
     }
         nav{
             @include principalnav;
@@ -72,4 +71,12 @@ footer{
     }
 }
 
+.infomarcas{
+    color:$color-letra;
+    font-size:$tipo-de-letra;
+    text-align: $centrar-texto;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
 

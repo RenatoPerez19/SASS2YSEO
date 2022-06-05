@@ -51,10 +51,11 @@ header{
     }
 }
 
-.parrafo2index{
+.parrafo2{
+    background-color: black;
+    color: white;
     margin-top: 40px;
     padding: 15px;
-    background-image:  linear-gradient(to right , white,rgb(126, 157, 214)  ,rgba(55, 161, 231, 0.863) , rgba(45, 145, 240, 0.801));
     text-align:$centrar-texto;
     font-size: 30px ;
     font-family: $tipo-de-letra;
@@ -64,7 +65,6 @@ header{
 footer{
     @include footer;
     div{
-        color: $color-letra;
         font-size: larger;
         font-family:Arial, Helvetica, sans-serif;
         text-decoration: none;
@@ -74,9 +74,9 @@ footer{
         display: flex;
         flex-direction:column;
     }
-    a{
+        a{
         text-decoration: none;
         font-family:Arial, Helvetica, sans-serif;
-        color:$color-letra;
+        color: grey;
     }
 }
