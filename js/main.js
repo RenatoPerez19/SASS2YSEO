@@ -1,4 +1,4 @@
-alert("Bienvenidos a Lowkey");
+alert("Bienvenidos a Drunky, tu tienda para comprar ropa importada");
 const x = Infinity;
 let carrito = 0;
 const remeras = 300;
